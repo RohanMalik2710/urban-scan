@@ -4,6 +4,7 @@ import { GoogleMap, useLoadScript, MarkerF, InfoWindowF } from '@react-google-ma
 import Home from './Home';
 import Header from './Header';
 import Footer from './Footer';
+import './index.css';
 
 const markers = [
   {
@@ -99,7 +100,6 @@ function App() {
       <Header />
       <Fragment>
         <div className="flex flex-col min-h-screen relative">
-          <h1 className='text-center'>Urban Scan</h1>
           <div style={{ width: "100%", height: "90vh" }}>
             {isLoaded && userPosition ? (
               <GoogleMap

@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <div className="dark-theme">
-      <Slider {...sliderSettings}>
+      
         {/* Introduction Section */}
         <section className="h-screen flex items-center justify-center bg-gradient-to-r from-indigo-900 to-violet-900">
           <div className="text-center text-white">
@@ -45,22 +45,24 @@ const Home = () => {
             <h2 className="text-3xl font-bold mb-4">Meet Our Team</h2>
             <div className="flex justify-center space-x-10">
               <div className="flex flex-col items-center">
-                <img
-                  src="https://www.fairobserver.com/wp-content/uploads/2021/07/India.jpg"
-                  alt="Team Member 1"
-                  className="rounded-full w-32 h-32 mb-2 border border-white" // Added white border for better contrast
-                />
-                <p className="text-lg font-bold">John Doe</p>
-                <p className="text-sm">Founder & CEO</p>
+                
+                <p className="text-lg font-bold">Rohan Malik</p>
+                <p className="text-sm">Leader</p>
               </div>
               <div className="flex flex-col items-center">
-                <img
-                  src="https://www.fairobserver.com/wp-content/uploads/2021/07/India.jpg"
-                  alt="Team Member 2"
-                  className="rounded-full w-32 h-32 mb-2 border border-white"
-                />
-                <p className="text-lg font-bold">Jane Smith</p>
-                <p className="text-sm">Head of Operations</p>
+                
+                <p className="text-lg font-bold">Rishabh Sood</p>
+                <p className="text-sm">Member</p>
+              </div>
+              <div className="flex flex-col items-center">
+                
+                <p className="text-lg font-bold">Vibhor Gupta</p>
+                <p className="text-sm">Member</p>
+              </div>
+              <div className="flex flex-col items-center">
+                
+                <p className="text-lg font-bold">Vinayak Pandey</p>
+                <p className="text-sm">Member</p>
               </div>
             </div>
           </div>
@@ -75,7 +77,7 @@ const Home = () => {
             </p>
           </div>
         </section>
-      </Slider>
+      
     </div>
   );
 };
